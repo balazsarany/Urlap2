@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Szállítási cím módosítása</legend><hr>
+            <table>
+                <tr>
+                    <td><label>Név<sup>*</sup></label></td>
+                    <td><label>Telefonszám<sup>*</sup></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="nev"></td>
+                    <td><select><option value="36">36</option></select><input type="tel" id="szam"></td>
+                </tr>
+                <tr>
+                    <td><label>Irányítószám<sup>*</sup></label></td>
+                    <td><label>Város<sup>*</sup></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="iranyito" placeholder="4032"></td>
+                    <td><select placeholder="Debrecen"><option>Debrecen</option>
+                    <option>Budapest</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td><label>Ország<sup>*</sup></label></td>
+                    <td><label>Cím<sup>*</sup></label></td>
+                </tr>
+                <tr>
+                    <td><select placeholder="Magyarország"><option>Magyarország</option></select></td>
+                    <td><input type="text" id="cimed"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Mentés" id="save"></td>
+                </tr>
+            </table>
+</fieldset>
+</form>
+</body>
+</html>
